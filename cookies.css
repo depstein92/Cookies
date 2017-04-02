@@ -1,0 +1,122 @@
+
+h1{
+  text-align: center;
+  font-family: 'Spirax', cursive;
+  font-size: 40px;
+}
+body{
+  background-color: #99ffff;
+}
+
+/*================================*/
+/*=========Images CSS=======================*/
+
+#wrapper{
+  flex-direction: row;
+
+}
+#lemonCookieImage{
+position: relative;
+display: inline;
+width: 200px;
+height: 200px;
+
+margin: 20px 20px 20px 20px;
+right: 200px;
+}
+
+#chocolateCookieImage{
+display: inline;
+position: relative;
+width: 200px;
+height: 200px;
+margin: 20px 20px 20px 20px;
+left:850px;
+}
+#sugarCookieImage{
+display: inline;
+position: relative;
+width: 200px;
+height: 200px;
+margin: 20px 20px 20px 20px;
+left: 320px;
+}
+#chocolateCookieImage img{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 30px;
+}
+
+#sugarCookieImage img{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 30px;
+}
+
+#lemonCookieImage img{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 30px;
+}
+/*================================*/
+/*=========Buttons CSS=======================*/
+
+ .wrapperButton #sugarButton{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  padding: 20px 20px;
+  border: 6px solid #ffff66;
+  font-family: 'Spirax', cursive;
+  background-color: #ff6699;
+  font-size: 25px;
+  border-radius: 30px;
+  left: 590px;
+  margin-top: 50px;
+}
+.wrapperButton #chocolateButton{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  padding: 20px 20px;
+  border: 6px solid #ffff66;
+  font-family: 'Spirax', cursive;
+  right: 260px;
+  font-size: 25px;
+  border-radius: 30px;
+  float: right;
+  margin-top: 50px;
+  background-color: #ff6699;
+}
+.wrapperButton #lemonButton{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  padding: 20px 20px;
+  border: 6px solid #ffff66;
+  font-family: 'Spirax', cursive;
+  font-size: 25px;
+  background-color: #ff6699;
+  border-radius: 30px;
+  margin-top: 50px;
+  left:110px;
+}
+
+#clear_box{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  padding: 20px 20px;
+  border: 6px solid #ffff66;
+  font-family: 'Spirax', cursive;
+  font-size: 25px;
+  background-color: #ff6699;
+  border-radius: 30px;
+  margin-top: 50px;
+
+
+
+}
